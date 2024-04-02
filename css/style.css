@@ -70,4 +70,6 @@ header {
     width: calc(100% / 3);
     height: 300px;
     border: 1px solid black;
+    background-color: blueviolet;
 }
+
