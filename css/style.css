@@ -31,9 +31,9 @@ header {
 .container-small {
     max-width: 900px;
     margin: auto;
-    height: 500px;
     background-color: aquamarine;
 }
+    
 /* fine classi di layout*/
 
 /* colonne*/
