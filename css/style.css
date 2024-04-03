@@ -5,12 +5,14 @@
 }
 
 header {
-    background-color: silver;
+    font-size: 16px;
 }
 footer {
     background-color: black;
-    color: whithe;
 }
+    .py-50 {
+        padding-top: 50px;
+    }
 
 /* classi di layout*/
 
@@ -46,14 +48,15 @@ footer {
     align-items: center;
 }
 
-.container-small {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: aquamarine;
+.text-align-center {
+    text-align: center;
+}
+.text-align-justify {
+    text-align: justify;
 }
     
 .square {
-    height: 199px;
+   
     width: 50%;
     border: 1px solid black;
     background-color: pink;
@@ -62,52 +65,57 @@ footer {
 .d-flex {
     display: flex;
 }
+
+.jumbo-arrow {
+    font-size: 70px;
+    padding: 20px 10px;
+}
 /* fine classi di layout*/
 
 /* colonne*/
 
 .col-20 {
     width: calc(100% / 5);
-    height: 200px;
+    
     border: 1px solid black;
-    background-color: bisque;
+   
 }
 
 
 
 .col-100 {
     width: 100%;
-    height: 100px;
+    
     border: 1px solid black;
    
 }
 
 .col-40 {
     width: 40%;
-    height: 300px;
+   
     border: 1px solid black;
-    background-color: yellow;
+   
 }
 
 .col-50 {
     width: 50%;
-    height: 200px;
+   
     border: 1px solid black;
-    background-color: orange;
+  
 }
 
 .col-60 {
     width: 60%;
-    height: 300px;
+ 
     border: 1px solid black;
-    background-color: brown;
+  
 }
 
 .col-33 {
     width: calc(100% / 3);
-    height: 450px;
+    
     border: 1px solid black;
-    background-color: blueviolet;
+    
 }
 
 /*fine colonne*/
@@ -120,7 +128,7 @@ footer {
     
 }
 
-a {
+.menu-style {
     text-decoration: none;
     color: black;
 }
@@ -129,9 +137,7 @@ a {
     padding: 15px 10px;
 }
 
-.btn {
-    
-}
+
 
 img {
     width: 100%;
@@ -159,7 +165,7 @@ img {
 
 .square {
     width: 50%;
-    height: 222px;
+   height: 222px;
     border: 1px solid black;
     background-color: red;
 }
@@ -172,10 +178,19 @@ img {
 
 /*btn style*/
 
-.btn {
-    background-color: blue;
+#btn {
+    background-color: #0057E5;
     color:white;
+    text-decoration: none;
+    padding: 8px 16px;
     
+}
+
+.jumbo-cta {
+    background-color: #0057E5;
+    color:white;
+    text-decoration: none;
+    padding: 8px 16px;
 }
 /* fine btn-style*/
 
@@ -225,6 +240,13 @@ hr {
 }
 
 /*footer content*/
+.footer-title {
+    color: white;
+}
+
+.footer-list li {
+    color: white;
+}
 .hr-footer {
     color: white;
     border: 1px solid white;
@@ -234,6 +256,15 @@ hr {
     color: white;
 }
 
+/*titoli*/
+h1 {
+    font-size: 105px;
+}
+/*fine titoli*/
 
+/*paragrafi*/
+.jumbo-text {
+    font-size: 20px;
+}
 
 
