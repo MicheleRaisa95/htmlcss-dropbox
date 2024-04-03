@@ -178,6 +178,13 @@ img {
 }
 /* fine btn-style*/
 
+/*.find-partner*/
+.find-partner {
+    background-color: white;
+    border: 1px solid black;
+}
+
+
 /*plan*/
 .plan-type {
     border: 1px solid gray;
@@ -204,5 +211,7 @@ hr {
     border: 3px solid black;
 }
 /*plan*/
+
+
 
 
