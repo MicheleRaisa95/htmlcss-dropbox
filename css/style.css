@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: aqua;
+    background-color: silver;
 }
 footer {
     background-color: black;
@@ -141,9 +141,7 @@ img {
     background-color: lightblue;
 }
 
-.bg-lightblue {
-    background-color: blue;
-}
+
 
 .content {
     margin: 10px;
@@ -170,3 +168,41 @@ img {
 .margin-50 {
     margin: 50px;
 }
+
+/*btn style*/
+
+.btn {
+    background-color: blue;
+    color:white;
+    
+}
+/* fine btn-style*/
+
+/*plan*/
+.plan-type {
+    border: 1px solid gray;
+    width: 70%;
+}
+.content-plan {
+    border: 1px solid gray;
+   /* min-height: 250px;*/
+    width: 70%;
+}
+
+.cta {
+    background-color: blue;
+    color: white;
+}
+
+.cta-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+hr {
+    width: 30%;
+    border: 3px solid black;
+}
+/*plan*/
+
+
