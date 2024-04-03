@@ -9,6 +9,7 @@ header {
 }
 footer {
     background-color: black;
+    color: whithe;
 }
 
 /* classi di layout*/
@@ -221,6 +222,16 @@ hr {
 /*faq*/
 .faq {
     border-bottom: 1px solid black;
+}
+
+/*footer content*/
+.hr-footer {
+    color: white;
+    border: 1px solid white;
+}
+
+.lang {
+    color: white;
 }
 
 
