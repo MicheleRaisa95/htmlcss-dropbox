@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- Sezione 1 -->
@@ -111,7 +112,7 @@
             <div class="row">
                 <div class="col-100">
                     <div class="content">
-                        <h2>
+                        <h2 class="business-plan">
                             Trova il piano business che fa per te
                         </h2>
                     </div>
@@ -122,20 +123,23 @@
                    <label for="fatturazione mensile">
                     Fatturazione mensile
                 </label>
-
-                <input type="radio" name="fatturazione annuale"> 
+                <div class="radio-display">
+                    <input type="radio" name="fatturazione annuale"> 
                    <label for="fatturazione annuale">
                     Fatturazione annuale
                 </label>
                 </div>
+                
+                </div>
             </div>
             <div class="col-33">
-                <div class="content">
-                   <div class="plan-type">
+                <div class="content justify-content-center">
+                   <div class="plan-type text-align-center">
+                    <i class="fas fa-user"></i>
                     Singolo
                    </div>
                    <div class="content-plan">
-                    <h2>
+                    <h2 class="h2-plan">
                         Professional
                     </h2>
                     <p class="price">
@@ -144,37 +148,44 @@
                     <p class="monthly">
                         /mese
                     </p>
-                    <ol>
+                    <ol class="ol-plan">
                         <li>
+                            <i class="fas fa-user"></i>
                             1 utente
                         </li>
                         <li>
+                            <i class="fas fa-folder"></i>
                             5 TB di spazio di archiviazione sicuro
                         </li>
                         <li>
+                            <i class="fas fa-share-nodes"></i>
                             Funzioni di produttivit&aacute; premium e condivisione file semplice e sicura
                         </li>
                     </ol>
-                    <div>
+                    <div class="cta-container">
                         <a href="#" class="cta">
                             Prova gratis per 30 giorni
                         </a>
                     </div>
-                    <div>
+                    <div class="cta-container">
                         oppure <a href="#" class="cta-link">
                             acquista ora
                         </a>
                         
                     </div>
-                    <hr>
-                    <h3>
+                    <div class="padding-left-45">
+                    <hr class="hr-plan">
+                    </div>
+                    <h3 class="h3-plan">
                         Punti salienti del piano
                     </h3>
-                    <ol>
+                    <ol class="ol-plan">
                         <li>
+                            <i class="fas fa-check check-color"></i>
                             Invia file fino a 100 GB con Dropbox Transfert
                         </li>
                         <li>
+                            <i class="fas fa-check check-color"></i>
                             Cartelle offline su dispositivi mobili
                         </li>
                     </ol>
@@ -183,12 +194,13 @@
                 </div>
             </div>
             <div class="col-33">
-                <div class="content">
-                    <div class="plan-type">
+                <div class="content  justify-content-center">
+                    <div class="plan-type text-align-center">
+                        <i class="fas fa-users"></i>
                         Team
                     </div>
                     <div class="content-plan">
-                        <h2>
+                        <h2 class="h2-plan">
                             Advanced
                         </h2>
                         <p class="price">
@@ -197,46 +209,55 @@
                         <p class="monthly">
                             /utente/mese
                         </p>
-                        <ol>
+                        <ol class="ol-plan">
                             <li>
+                                <i class="fas fa-user"></i>
                                 3 o pi&uacute; utenti
                             </li>
                             <li>
+                                <i class="fas fa-folder"></i>
                                 Tutto lo spazio di cui ha bisogno il tuo team
                             </li>
                             <li>
+                                <i class="fas fa-share-nodes"></i>
                                 Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
                             </li>
                         </ol>
-                        <div>
+                        <div class="cta-container">
                             <a href="#" class="cta">
                                 Prova gratis per 30 giorni
                             </a>
                         </div>
-                        <div>
+                        <div class="cta-container">
                             oppure <a href="#" class="cta-link">
                                 acquista ora
                             </a>
                             
                         </div>
-                        <hr>
-                        <h3>
+                        <div class="padding-left-45">
+                            <hr class="hr-plan">
+                            </div>
+                        <h3 class="h3-plan">
                             Punti salienti del piano
                         </h3>
-                        <ol>
+                        <ol class="ol-plan">
                             <li>
+                                <i class="fas fa-check check-color"></i>
                                 Nessun limiti di spazio per i file
                             </li>
                             <li>
+                                <i class="fas fa-check check-color"></i>
                                 Cartelle offline su dispositivi mobili
                             </li>
                             <li>
                                 Risparmio del 50% rispetto alle iscrizioni singole
                             </li>
                             <li>
+                                <i class="fas fa-check check-color"></i>
                                 Possibilit&aacute; di inserire novi membri del team
                             </li>
                             <li>
+                                <i class="fas fa-check check-color"></i>
                                 Gestione dei permessi in base ai ruoli
                             </li>
                         </ol>
@@ -244,12 +265,13 @@
                 </div>
             </div>
             <div class="col-33">
-                <div class="content">
-                    <div class="plan-type">
+                <div class="content  justify-content-center">
+                    <div class="plan-type text-align-center">
+                        <i class="fas fa-building"></i>
                      Azienda
                     </div>
                     <div class="content-plan">
-                     <h2>
+                     <h2 class="h2-plan">
                          Enterprise
                      </h2>
                      <p class="price">
@@ -258,40 +280,47 @@
                      <p class="monthly">
                          -
                      </p>
-                     <ol>
+                     <ol class="ol-plan">
                          <li>
+                            <i class="fas fa-user"></i>
                              10 o pi&uacute; utenti
                          </li>
                          <li>
+                            <i class="fas fa-folder"></i>
                              soluzioni personalizzabili per la tua azienda
                          </li>
                          <li>
+                            <i class="fas fa-share-nodes"></i>
                              Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
                          </li>
                      </ol>
-                     <div>
+                     <div class="cta-container">
                          <a href="#" class="cta">
                              Prova gratis per 30 giorni
                          </a>
                      </div>
-                     <div>
+                     <div class="cta-container">
                          oppure <a href="#" class="cta-link">
                              acquista ora
                          </a>
                          
                      </div>
-                     <hr>
-                     <h3>
+                     <div class="padding-left-45">
+                        <hr class="hr-plan">
+                        </div>
+                     <h3 class="h3-plan">
                          Punti salienti del piano
                      </h3>
-                     <ol>
+                     <ol class="ol-plan">
                          <li>
+                            <i class="fas fa-check check-color"></i>
                              Cartelle offline su dispositivi mobili
                          </li>
                          <li>
                              Serviziop di assistenza 24/h
                          </li>
                          <li>
+                            <i class="fas fa-check check-color"></i>
                             Possibilit&aacute; di personalizzazione totale
                          </li>
                      </ol>
@@ -300,23 +329,25 @@
                  </div>
             </div>
             <div class="margin-bottom-75 margin-top-75">
+                <div class="container">
             <div class="col-100">
-                <div>
+                <div class="plan-team text-align-center">
+                    <i class="fas fa-users"></i>
                     Team
                 </div>
                 <div class="d-flex">
                     <div>
-                        <h2>
+                        <h2 class="h2-plan py-50">
                             Enterprise
                         </h2>
-                        <div>
+                        <div class="contact">
                             Contatta l'ufficio vendite per i prezzi
                         </div>
-                        <p>
+                        <p class="contact-paragraph">
                             Soluzione personallizate e supporto su misura per aiutare i proffesionisti IT nella gestione su qualsiasi scala.
                         </p>
                     </div>
-                    <div>
+                    <div class="cta-plan-padding">
                         <a href="#" class="cta">
                             Contatta l'ufficio vendite
                         </a>
@@ -325,6 +356,7 @@
             </div>
             </div>
         </div>
+    </div>
             </div>
       </div>
       </div>
