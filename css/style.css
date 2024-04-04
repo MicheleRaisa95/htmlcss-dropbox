@@ -158,7 +158,9 @@ footer {
     padding: 15px 10px;
 }
 
-
+.filter {
+    filter: invert(100%);
+}
 
 img {
     width: 100%;
@@ -167,6 +169,14 @@ img {
 /*background*/
 .bg-lightblue {
     background-color: lightblue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-navy {
+    background-color: navy;
 }
 
 
@@ -181,10 +191,47 @@ img {
     display: flex;
 }
 
+.bg-yellow {
+background-color: yellow;
+}
+
+.bg-lightgreen {
+    background-color: lightgreen;
+}
+
+.bg-pomace {
+    background-color: #61082B;
+}
+
+.bg-sky {
+    background-color: #0093CE;
+}
+
+.bg-dark-red {
+    background-color:#D5001F;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo-designit {
+    padding: 30px 30px
+}
+.p-designit {
+    padding: 30px 30px
+}
 .square {
    width: calc(100% / 3);
    height: calc(100vw / 3);
-   background-color: silver;
+   background-color: #F5F5F5;
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
