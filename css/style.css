@@ -55,12 +55,6 @@ footer {
     text-align: justify;
 }
     
-.square {
-   
-    width: 50%;
-    border: 1px solid black;
-    background-color: pink;
-}
 
 .d-flex {
     display: flex;
@@ -69,6 +63,13 @@ footer {
 .jumbo-arrow {
     font-size: 70px;
     padding: 20px 10px;
+}
+
+.margin-bottom-75 {
+    margin-bottom: 75px;
+}
+.margin-top-75 {
+    margin-top: 75px;
 }
 /* fine classi di layout*/
 
@@ -157,17 +158,22 @@ img {
 /*square section*/
 
 .square-section {
-    width: calc(100vw / 3);
-    height:calc(100vw / 3) ;
-    background-color: silver;
-    border: 1px solid black;
+    display: flex;
 }
 
 .square {
+   width: calc(100% / 3);
+   height: calc(100vw / 3);
+   background-color: silver;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.small-square {
     width: 50%;
-   height: 222px;
+    height: 50%;
     border: 1px solid black;
-    background-color: red;
 }
 
 /*fine square section*/
@@ -231,6 +237,7 @@ img {
 hr {
     width: 30%;
     border: 3px solid black;
+    display: inline-block;
 }
 /*plan*/
 
